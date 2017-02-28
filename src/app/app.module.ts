@@ -10,6 +10,7 @@ import { DateTimeComponent } from './date-time/date-time.component';
 import { DateDateComponent } from './date-date/date-date.component';
 import { DayDateComponent } from './day-date/day-date.component';
 import { routing } from './app.routing';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { routing } from './app.routing';
     LoginComponent,
     DateTimeComponent,
     DateDateComponent,
-    DayDateComponent
+    DayDateComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,

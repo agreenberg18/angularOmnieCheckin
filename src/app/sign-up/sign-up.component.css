@@ -1,0 +1,43 @@
+.topContainer{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #00aeef;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width:90%;
+    margin:0 auto;
+}
+
+input{
+    margin-bottom:25px;
+    height:41px;
+    font-size: 17px
+}
+
+.signUpText{
+    color:white;
+    font-size: 24px;
+}
+
+.submitCancel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #5bd652;
+    color:white;
+    font-size: 22px;
+}
+
+.cancel{
+    width:100%;
+}
+
+.submit{
+    width:100%;
+}

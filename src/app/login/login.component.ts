@@ -11,7 +11,6 @@ import { DateTimeComponent } from '../date-time/date-time.component';
 import { DateDateComponent } from '../date-date/date-date.component';
 import { DayDateComponent } from '../day-date/day-date.component'
 import { FormsModule } from '@angular/forms';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',

@@ -1,0 +1,17 @@
+<div class="topContainer">
+    <div class="signUpText">
+      <p>Sign Up</p>
+    </div>
+
+    <form class="form">
+            <input [(ngModel)]="empId" name="empId" placeholder="Employee Id"/>
+            <input [(ngModel)]="password" name="password" placeholder="Password"/>
+    </form>
+
+    <div class="submitCancel">
+      <div routerLink="../login" class="cancel"><p>CANCEL</p></div>
+      <p class="line">|</p>
+      <div class="submit"><p>SUBMIT</p></div>
+    </div>
+
+</div>
