@@ -1,0 +1,75 @@
+.topContainer{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
+
+.welcome{
+    flex:1;
+}
+
+.currentTime{
+    flex:2;
+}
+
+.topDate{
+    color:#ff6633;
+    font-weight: 100;
+	font-size: 20px;
+}
+
+.currentTimeText{
+    font-size: 19px;
+}
+
+.loginContainer{
+    color:white;
+    background-color: #00aeef;
+    line-height: 71px;
+    font-size: 22px;
+}
+
+.loginExtended{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.enterCancel{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #5bd652;
+}
+
+.line{
+    width: 1px;
+}
+
+.extendDiv{
+    width:100%;
+}
+
+input{
+    align-self: center;
+    width:90%;
+    font-size: 17px;
+    height:41px;
+    margin-bottom:15px;
+}
+
+.newAcctDiv{
+    font-size: 14px;
+    margin:0;
+    line-height:14px;
+}
