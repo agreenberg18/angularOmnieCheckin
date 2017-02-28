@@ -18,14 +18,14 @@
         <div class="loginClick" (click)="slideToggle()">LOGIN</div>
         <div class="loginExtended" [@slidePanel]='state' style="display:none">
             <form class="form">
-                    <input [(ngModel)]="empId" name="empId" placeholder="Employee Id"/>
-                    <input [(ngModel)]="password" name="password" placeholder="Password"/>
+                    <input [(ngModel)]="empId" name="empId" placeholder="Employee Id" require/>
+                    <input [(ngModel)]="password" type="password" name="password" placeholder="Password" require/>
             </form>
             <div routerLink="../signup" class="newPageDiv"><p class="newAcctDiv">Don't have an account? Tap here to register!</p></div>
                 <div class="enterCancel">    
                         <div class="extendDiv" (click)="slideToggle()">CANCEL </div>
                         <span class="line">|</span>
-                        <div class="extendDiv">LOGIN</div>
+                        <div class="extendDiv" (click)="login(empId, password)">LOGIN</div>
                 </div>
         </div>
     </div>

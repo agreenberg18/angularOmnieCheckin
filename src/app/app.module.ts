@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { Routes, RouterModule } from '@angular/router';
 
+
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { DateTimeComponent } from './date-time/date-time.component';
@@ -26,7 +27,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
   ],
   providers: [],
   bootstrap: [AppComponent]
